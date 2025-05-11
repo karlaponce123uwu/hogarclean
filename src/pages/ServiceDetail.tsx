@@ -21,9 +21,9 @@ const serviceDetails = {
     description: 'Servicio de limpieza profunda para mantener tu casa impecable. Incluye limpieza de habitaciones, baños, cocina y áreas comunes.',
     icon: <Scissors size={28} />,
     images: [
-      "/placeholder.svg",
+      "https://www.kipclin.com/images/imagen_2022-06-24_165945025.png",
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://elnuevooriente.com/wp-content/uploads/2020/05/limpieza_hogar.jpg"
     ],
     fullDescription: `
       <p>Nuestro servicio de limpieza del hogar está diseñado para mantener tu espacio impecable y saludable. Contamos con personal profesional que utiliza productos de alta calidad y técnicas eficientes para garantizar resultados excepcionales.</p>
@@ -83,9 +83,9 @@ const serviceDetails = {
     description: 'Reparación de tuberías, desagües, instalación de grifos, reparación de fugas y solución de problemas de agua en el hogar.',
     icon: <Wrench size={28} />,
     images: [
-      "/placeholder.svg",
-      "https://images.unsplash.com/photo-1621274790572-7c32596bc67f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://calahondaservicios.com/wp-content/uploads/2023/11/Que-se-hace-en-fontaneria.webp",
+      "https://www.netjet.es/wp-content/uploads/2023/05/Los-beneficios-de-contar-con-un-sistema-de-fontaneria-moderno-y-actualizado.webp",
+      "https://www.sofimarsuministros.com/hazte-con-los-suministros-de-fontaneria-en-pontevedra_img13269t7m4w960h640.jpg"
     ],
     fullDescription: `
       <p>Nuestro servicio de fontanería profesional resuelve cualquier problema relacionado con el sistema de agua de tu hogar. Desde pequeñas reparaciones hasta instalaciones completas, nuestros técnicos certificados están equipados para manejar todo tipo de situaciones.</p>
@@ -145,9 +145,9 @@ const serviceDetails = {
     description: 'Instalación y reparación de circuitos eléctricos, enchufes, interruptores, iluminación y solución de problemas eléctricos.',
     icon: <Lightbulb size={28} />,
     images: [
-      "/placeholder.svg",
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://www.tecsaqro.com.mx/wp-content/uploads/2022/09/electricista_como_profesion.jpg",
+      "https://www.apiem.org/wp-content/uploads/2022/08/5df5e3200851db4f5c3aaf5f91ebb6fe_XL.jpeg",
+      "https://todoferreteria.com.mx/wp-content/uploads/2023/10/1-1.png"
     ],
     fullDescription: `
       <p>Nuestros servicios de electricidad cubren todas las necesidades eléctricas de tu hogar. Contamos con electricistas cualificados que garantizan instalaciones seguras y reparaciones efectivas cumpliendo con todas las normativas.</p>
@@ -207,9 +207,9 @@ const serviceDetails = {
     description: 'Mantenimiento de jardines, poda de árboles y arbustos, corte de césped, plantación y diseño de espacios verdes.',
     icon: <TreeDeciduous size={28} />,
     images: [
-      "/placeholder.svg",
-      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1557429287-b2e26467fc2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://blog.homedepot.com.mx/wp-content/uploads/2019/10/Portada_Principiantes_01.jpg",
+      "https://podapp.com.ar/wp-content/uploads/2024/03/los-servicios-de-jardineria-mas-requeridos-a-nivel-mundial.webp",
+      "https://theressa.net/images/articles/5e42c6bd65ac9-image-asset.jpeg"
     ],
     fullDescription: `
       <p>Nuestro servicio de jardinería profesional mantiene y transforma tus áreas verdes. Combinamos técnicas modernas con conocimientos tradicionales para crear y mantener jardines saludables y atractivos.</p>
@@ -269,9 +269,9 @@ const serviceDetails = {
     description: 'Limpieza y acondicionamiento de terrenos, eliminación de maleza, escombros y preparación para construcción o jardinería.',
     icon: <Trash size={28} />,
     images: [
-      "/placeholder.svg",
-      "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+      "https://limpiezadeparcela.com/wp-content/uploads/elementor/thumbs/silvestre-6-scaled-qgnce5l0tuq4vsl94y20v0io8ngx7ll9o284j3dmp4.jpg",
+      "https://sierrajardin.com/wp-content/uploads/2021/02/limpieza-de-parcelas-Sierra-jardi%CC%81n.jpg",
+      "https://gruponetsoft.com/elolimpico.com.py/images/demo/portfolio/limpieza-terrenos.png"
     ],
     fullDescription: `
       <p>Nuestro servicio de limpieza de terrenos transforma espacios abandonados o en mal estado en áreas listas para su uso. Utilizamos maquinaria especializada y seguimos protocolos de gestión de residuos responsables.</p>
@@ -407,89 +407,9 @@ const ServiceDetail = () => {
               dangerouslySetInnerHTML={{ __html: service.fullDescription }} 
             />
             
-            {/* Pricing Section */}
-            {service.pricing && (
-              <div className="mt-12">
-                <h2 className="text-3xl font-bold mb-6">Precios</h2>
-                
-                {/* Desktop View: Side by Side Comparison */}
-                <div className="hidden md:grid grid-cols-3 gap-8">
-                  {service.pricing.map((option: any) => (
-                    <div 
-                      key={option.name}
-                      className={`bg-white rounded-lg shadow-md p-8 border-2 ${
-                        option.isPopular ? 'border-primary' : 'border-transparent'
-                      } relative`}
-                    >
-                      {option.isPopular && (
-                        <span className="absolute top-0 right-0 bg-primary text-white px-3 py-1 text-sm rounded-bl-lg rounded-tr-lg font-medium">
-                          Popular
-                        </span>
-                      )}
-                      <h3 className="text-2xl font-bold mb-1">{option.name}</h3>
-                      <p className="text-gray-500 mb-4">{option.details}</p>
-                      <div className="flex items-baseline mb-6">
-                        <span className="text-4xl font-bold">L {option.price}</span>
-                      </div>
-                      <ul className="mb-8 space-y-2">
-                        {option.features.map((feature: string, index: number) => (
-                          <li key={index} className="flex items-center">
-                            <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                            </svg>
-                            <span>{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                      <Link 
-                        to="/solicitar" 
-                        className={`w-full block text-center py-2 px-4 rounded-md ${
-                          option.isPopular ? 'bg-primary text-white' : 'bg-gray-200 text-gray-800'
-                        } hover:opacity-90 transition-opacity`}
-                      >
-                        Seleccionar
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-                
-                {/* Mobile View: Accordion */}
-                <div className="md:hidden">
-                  <Accordion type="single" collapsible className="w-full">
-                    {service.pricing.map((option: any, index: number) => (
-                      <AccordionItem key={index} value={`option-${index}`}>
-                        <AccordionTrigger>
-                          <div className="flex justify-between items-center w-full pr-4">
-                            <span className="font-bold">{option.name}</span>
-                            <span className="text-primary font-bold">L {option.price}</span>
-                          </div>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                          <p className="text-gray-500 mb-2">{option.details}</p>
-                          <ul className="mb-4 space-y-2">
-                            {option.features.map((feature: string, idx: number) => (
-                              <li key={idx} className="flex items-center">
-                                <svg className="h-4 w-4 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                                </svg>
-                                <span>{feature}</span>
-                              </li>
-                            ))}
-                          </ul>
-                          <Link 
-                            to="/solicitar" 
-                            className="block text-center py-2 px-4 rounded-md bg-primary text-white hover:opacity-90 transition-opacity"
-                          >
-                            Seleccionar
-                          </Link>
-                        </AccordionContent>
-                      </AccordionItem>
-                    ))}
-                  </Accordion>
-                </div>
-              </div>
-            )}
             
+                
+              
             <div className="mt-10 pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-semibold mb-4">¿Interesado en este servicio?</h3>
               <div className="flex flex-wrap gap-4">

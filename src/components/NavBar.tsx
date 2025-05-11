@@ -33,9 +33,6 @@ const NavBar = () => {
             <Link to="/servicios" className={`${isActive("/servicios")} font-medium transition-colors`}>
               Servicios
             </Link>
-            <Link to="/precios" className={`${isActive("/precios")} font-medium transition-colors`}>
-              Precios
-            </Link>
             <Link to="/contacto" className={`${isActive("/contacto")} font-medium transition-colors`}>
               Contáctanos
             </Link>
@@ -84,13 +81,6 @@ const NavBar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Servicios
-            </Link>
-            <Link 
-              to="/precios" 
-              className={`${isActive("/precios")} font-medium transition-colors`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Precios
             </Link>
             <Link 
               to="/contacto" 
